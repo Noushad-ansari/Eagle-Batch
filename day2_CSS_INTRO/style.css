@@ -1,0 +1,45 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 10px solid tomato; */
+}
+
+.container{
+    border: 2px solid teal;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+
+}
+
+.child{
+    border: 2px solid lightgreen;
+    width: 200px;
+    height: 200px;
+}
+
+.child1{
+    align-self: flex-start;
+}
+.child2{
+    align-self: center;
+}
+
+.child3{
+    align-self: flex-end;
+}
