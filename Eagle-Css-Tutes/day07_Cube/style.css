@@ -26,7 +26,7 @@ body{
     height: 100%;
     width: 100%;
     position: relative;
-    background-color: lightblue;
+    /* background-color: lightblue; */
     transform: translateZ(-500px) rotateY(30deg) rotateX(20deg) ;
     transform-style: preserve-3d;
     animation: animate 3s infinite linear;
@@ -52,6 +52,8 @@ body{
     color: white;
     font-weight: 900;
     font-size: 50px;
+    text-align: center;
+    line-height: 300px;
 }
 
 .front{

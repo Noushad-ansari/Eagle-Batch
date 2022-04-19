@@ -1,0 +1,32 @@
+Operators
+ 1. airthmatic
+ 2. assignmet Operators
+ 3. String Operators
+ 4. string and Number Operators
+ 5. Comparision Operators
+ 6. logical Operators
+ 7. bitwise Operators
+
+
+ 8. Control Statements
+ 1.if else
+ 2.if else if
+ 3.Ternary Operator(:?)
+ 2.switch statement
+
+9. Functions
+ loops
+ while 
+ do while 
+ for
+ for in
+ for of
+ foreach
+ map 
+ reduce
+ filter
+ 
+
+ 10.scope(global, local,functional,blocked)
+
+

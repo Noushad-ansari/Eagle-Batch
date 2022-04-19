@@ -1,0 +1,45 @@
+
+:root{
+    --primaryBackground : rgb(231, 227, 227);
+    --secondaryBackground : rgb(209, 181, 202);
+    
+    --primaryTextColor : rgb(90, 212, 100);
+    --secondaryTextColor : rgb(168, 146, 23);
+}
+
+body{
+    background-color: var(--primaryBackground);
+}
+
+.heading{
+    text-align: center;
+    color: var(--primaryTextColor);
+}
+
+.mainSection{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondaryTextColor);
+    background-color: var(--secondaryBackground);
+}
+
+footer{
+    margin-top: 100px;
+}
+.footer{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 200px;
+background-color: var(--secondaryBackground);
+
+
+}
+.footer>li{
+    list-style: none;
+    color: var(--primaryTextColor);
+    padding: 20px 20px;
+    
+}
