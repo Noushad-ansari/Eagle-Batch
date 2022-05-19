@@ -29,4 +29,6 @@ Operators
 
  10.scope(global, local,functional,blocked)
 
+ 11. Event And strings & template Litrals
+
 

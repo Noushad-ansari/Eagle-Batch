@@ -8,7 +8,7 @@ let car = {
     }
 }
 
-// car.name = "hello"
+// car.name = "hello"  // overwrite the property value
 
 // console.log(car.name)
 // console.log(car.color)
