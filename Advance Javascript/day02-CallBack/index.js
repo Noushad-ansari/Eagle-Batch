@@ -37,6 +37,8 @@ function register(cb) {
         console.log("register")
         cb()
     }, 3000)
+    
+        // console.log("register")
 
 }
 function login(cb) {
@@ -44,17 +46,38 @@ function login(cb) {
         console.log("login")
         cb()
     }, 1000)
+        // console.log("login")
 }
-function display() {
+function display(cb) {
     setTimeout(() => {
         console.log("display")
+        // cb()
     }, 200)
+        // console.log("display")
+}
+function edit() {
+    // setTimeout(() => {
+    //     console.log("edit")
+    // }, 200)
 }
 
+
+// register()
+// login()
+// display()
 register(function () {
-    login(function () {
-        display()
+    login(function(){
+display()
     })
 })
+
+// callback hell
+// register(function () {
+//     login(function () {
+//         display(function () {
+//             edit()
+//         })
+//     })
+// })
 
 // display()
