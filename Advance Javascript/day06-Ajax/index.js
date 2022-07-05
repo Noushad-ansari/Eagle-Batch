@@ -27,28 +27,28 @@
 //             console.log(user.id,user.name,user.email)
 //             let h2 =  document.createElement("h2")
 //             h2.innerText = user.name
-           
+
 //             userName.appendChild(img)
 //             userName.appendChild(h2)
-           
+
 //            });
-           
+
 //         }
 //     }
 
 //     xhttp.open("GET", "https://jsonplaceholder.typicode.com/users", true);
 //     xhttp.send()
 // }
-let p =  document.querySelector("#err")
+let p = document.querySelector("#err")
 function fetcheData() {
-   
-   fetch("https://jsonplacesholder.typicode.com/users")
-   .then((res)=>res.json())
-   .then((data)=>console.log(data))
-   .catch(err=>{
-   p.innerHTML = `Something went Wrong ${err}`
-setTimeout(()=>{
-    p.innerHTML = ''
-},2000)
-   })
+
+    fetch("https://jsonplacesholder.typicode.com/users")
+        .then((res) => res.json())
+        .then((data) => console.log(data))
+        .catch(err => {
+            p.innerHTML = `Something went Wrong ${err}`
+            setTimeout(() => {
+                p.innerHTML = ''
+            }, 2000)
+        })
 }
