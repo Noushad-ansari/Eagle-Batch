@@ -1,5 +1,7 @@
 html css template
 product api call
+display data on webpage 
+loading animation
 filter
 add to cart
 error handling

@@ -26,36 +26,42 @@
 // }
 
 
-async function sayHello() {
-    let res = await new Promise((res, rej) => {
-        setTimeout(() => {
-            // console.log("register")
-            res("Registration Done")
-            // rej("something went wrong in register")
+// async function sayHello() {
+//     let res = await new Promise((res, rej) => {
+//         setTimeout(() => {
+//             // console.log("register")
+//             res("Registration Done")
+//             // rej("something went wrong in register")
 
-        }, 2000)
-    })
-    console.log(res)
-    let loginRes = await new Promise((res, rej) => {
-        setTimeout(() => {
-            // console.log("login")
-            res("login successful")
-            // res()
-        }, 500)
-    })
-    console.log(loginRes)
-    console.log("byee")
+//         }, 2000)
+//     })
+//     console.log(res)
+//     let loginRes = await new Promise((res, rej) => {
+//         setTimeout(() => {
+//             // console.log("login")
+//             res("login successful")
+//             // res()
+//         }, 500)
+//     })
+//     console.log(loginRes)
+//     console.log("byee")
 
 
-}
-sayHello()
+// }
+// sayHello()
 
 
 async function users() {
     try {
-        let res = await fetch('https://jsonplaceholder.typicode.com/users')
-        let userData = await res.json()
-        console.log(userData)
+        let userName = "john"
+        if (userName === "john") {
+            let res = await fetch('https://jsonplaceholder.typicode.com/users')
+            let userData = await res.json()
+            console.log(userData)
+        }else{
+            console.log("i cant make server request")
+        }
+
     } catch (err) {
         console.log(err + " something went wrong")
     }
@@ -63,11 +69,11 @@ async function users() {
     // .then((res)=>{return res.json()})
     // .then((data)=>console.log(data))
     // .catch((err=>console.log(err)))
-throw "sab kam bigad dia";
+    throw "sab kam bigad dia";
 }
 users()
-.then(()=>console.log("we have got users"))
-.catch(err=>console.log(err + "hello bhaiya"))
+    .then(() => console.log("we have got users"))
+    .catch(err => console.log(err + " hello bhaiya"))
 
 
 
