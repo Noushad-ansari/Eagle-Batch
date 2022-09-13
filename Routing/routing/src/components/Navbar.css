@@ -1,0 +1,16 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navItem{
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.active {
+    color:teal;
+    font-size: 25px;
+    text-decoration:underline;
+}
