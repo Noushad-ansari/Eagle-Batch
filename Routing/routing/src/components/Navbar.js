@@ -11,11 +11,12 @@ export default function Navbar() {
                 <li className = "navItem"><a href="about">ABout</a></li>
                 <li className = "navItem"><a href="contact">Contact</a></li>
             </ul> */}
-                <ul clasName="menu">
+                <ul className="menu">
                     <NavLink className="navItem" to="/">Home</NavLink>
                     <NavLink  className="navItem" to="about">about</NavLink>
                     <NavLink className="navItem" to="contact"  >Contact</NavLink>
                     <NavLink className="navItem" to="product"  >Product</NavLink>
+                    <NavLink className="navItem" to="users"  >Users</NavLink>
                 </ul>
             </nav>
         </div>

@@ -4,5 +4,5 @@ React Routing
         Navigating programmatically (useNavigate)
         nested Routes
         dynamic Routes
-        Route parameter
+        Route Query parameter
         Lazy loading

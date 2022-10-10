@@ -16,6 +16,10 @@ import EventBind from './Components/Event-Binding/EventBind';
 import ControlRendering from './Components/Conditional-Rendering/ControlRendering';
 import ListsRendering from './Components/ListRendering/ListsRendering';
 import ModuleCss from './Components/Stylesheets/ModuleCss';
+import Form from './Components/Form/Form';
+import LifeCycleA from './Components/LifeCycle/LifeCycleA';
+import ParentComp from './Components/PureComponent/ParentComp';
+import Refs from './Components/Refs';
 
 function App() {
   const adress = {
@@ -27,7 +31,11 @@ function App() {
 
       <Nav />
 
-<ModuleCss/>
+      <Refs />
+      {/* <ParentComp/> */}
+      {/* <LifeCycleA /> */}
+      {/* <Form/> */}
+      {/* <ModuleCss/> */}
       {/* <ListsRendering /> */}
       {/* <ControlRendering/> */}
       {/* <EventBind /> */}
