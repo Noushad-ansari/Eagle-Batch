@@ -10,7 +10,7 @@ export class Refs extends Component {
 
     // componentDidMount(){
     //     this.inputRef.current.focus()
-    //     console.log()
+    //     // console.log(this.inputRef.current.focus())
     // }
     
     handlFocus = () =>{
@@ -19,6 +19,7 @@ export class Refs extends Component {
   render() {
     return (
       <div className='App'>
+        {this.props.children}
         <input type="text" ref ={this.inputRef} />
         <button onClick={this.handlFocus}>focusInput</button>
       </div>

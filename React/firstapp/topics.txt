@@ -117,6 +117,9 @@ React Routing
 Pure Component
 React memo
 Refs
+ForwardRefs
+Portals
+HOC - a Component that accept a component as a argument and return a new enhanced component
 http request
 axios
 useEffect

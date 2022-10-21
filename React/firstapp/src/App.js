@@ -19,7 +19,12 @@ import ModuleCss from './Components/Stylesheets/ModuleCss';
 import Form from './Components/Form/Form';
 import LifeCycleA from './Components/LifeCycle/LifeCycleA';
 import ParentComp from './Components/PureComponent/ParentComp';
-import Refs from './Components/Refs';
+import Refs from './Components/Refs/Refs';
+import FRParentInput from './Components/ForwardRefs/FRParentInput';
+import PortalDemo from './Components/Portal/PortalDemo';
+import ParentPortal from './Components/Portal/ParentPortal';
+import ClickCounter from './Components/HOC/ClickCounter';
+import HoverCLick from './Components/HOC/HoverClick';
 
 function App() {
   const adress = {
@@ -30,8 +35,14 @@ function App() {
       {/* Compostion of component */}
 
       <Nav />
-
-      <Refs />
+      <ClickCounter name = "john" age= {25}/>
+      <HoverCLick name = "juned"/>
+      {/* <ParentPortal/> */}
+      {/* <PortalDemo name="prop ka nam" >
+        hello Poratal Bhaiya
+      </PortalDemo> */}
+      {/* </Refs> */}
+      {/* <FRParentInput/> */}
       {/* <ParentComp/> */}
       {/* <LifeCycleA /> */}
       {/* <Form/> */}
