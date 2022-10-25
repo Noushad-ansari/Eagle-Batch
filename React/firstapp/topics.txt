@@ -120,11 +120,12 @@ Refs
 ForwardRefs
 Portals
 HOC - a Component that accept a component as a argument and return a new enhanced component
+Context Api
 http request
 axios
-useEffect
 
-Context Api
+useState
+useEffect
 useReducer
 useContext
 useRef

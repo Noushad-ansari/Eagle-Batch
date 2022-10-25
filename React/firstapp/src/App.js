@@ -25,6 +25,9 @@ import PortalDemo from './Components/Portal/PortalDemo';
 import ParentPortal from './Components/Portal/ParentPortal';
 import ClickCounter from './Components/HOC/ClickCounter';
 import HoverCLick from './Components/HOC/HoverClick';
+import CompA from './Components/ContextAPI/CompA';
+import ApiCall from './Components/http/ApiCall';
+import ApiPost from './Components/http/ApiPost';
 
 function App() {
   const adress = {
@@ -35,8 +38,11 @@ function App() {
       {/* Compostion of component */}
 
       <Nav />
-      <ClickCounter name = "john" age= {25}/>
-      <HoverCLick name = "juned"/>
+      {/* <ApiCall/> */}
+      <ApiPost/>
+      {/* <CompA/> */}
+      {/* <ClickCounter name = "john" age= {25}/>
+      <HoverCLick name = "juned"/> */}
       {/* <ParentPortal/> */}
       {/* <PortalDemo name="prop ka nam" >
         hello Poratal Bhaiya
